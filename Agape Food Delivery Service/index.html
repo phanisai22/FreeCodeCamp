@@ -13,15 +13,15 @@
     <table>
         <tr>
             <th>
-                <h3>
-                    Agape Food Delivery Service
+                <h3 id="heading">
+                    Agape Food Delivery Service - Partner Invite
                 </h3>
             </th>
         </tr>
 
         <tr>
             <td>
-                <form>
+                <form class="a">
                     <input type="text" id="restraurantName" placeholder="Restraurant name*">
                 </form>
             </td>
@@ -29,12 +29,12 @@
 
         <tr>
             <td>
-                <form>
+                <form class="a">
                     <input type="number" id="pin" placeholder="Pin (Primary Location)*">
                 </form>
             </td>
             <td>
-                <form>
+                <form class="a">
                     <input type="text" id="city" placeholder="City*">
                 </form>
             </td>
@@ -42,12 +42,12 @@
 
         <tr>
             <td>
-                <form>
+                <form class="a">
                     <input type="text" id="oname" placeholder="Restraurant owner*">
                 </form>
             </td>
             <td>
-                <form>
+                <form class="a">
                     <input type="tel" id="phno" placeholder="Phone number*">
                 </form>
             </td>
@@ -55,7 +55,7 @@
 
         <tr>
             <td>
-                <form>
+                <form class="a">
                     <input type="email" id="email" placeholder="Email*">
                 </form>
             </td>
@@ -63,7 +63,7 @@
 
         <tr>
             <td>
-                <form>
+                <form class="a">
                     <input type="url" id="link" placeholder="Website Link/ online listing link">
                 </form>
             </td>
@@ -71,12 +71,12 @@
 
         <tr>
             <td>
-                <form>
+                <form class="a">
                     <input type="number" id="noOfOutlets" placeholder="No of outlets*">
                 </form>
             </td>
             <td>
-                <form>
+                <form class="a">
                     <input type="text" id="primaryArea" placeholder="Primary Area of outlet*">
                 </form>
             </td>
@@ -84,30 +84,34 @@
 
         <tr>
             <td>
-                <form>
+                <form class="a">
                     <input type="number" id="cost" placeholder="Cost of two*">
                 </form>
             </td>
             <td>
-                <form>
+                <form class="a">
                     <input type="text" id="type" placeholder="Establishment : Independent/Chain*">
                 </form>
             </td>
         </tr>
 
+
+
         <tr>
             <td>
-                <label>Cusine type: </label>
-                <input type="checkbox" id="indianVeg"> <label for="">Indian-Veg</label>
-                <input type="checkbox" id="indianVegNonVeg"> <label for="">Indian-veg & Non-veg</label>
-                <input type="checkbox" id="chinese"> <label for="">Chinese</label>
-                <input type="checkbox" id="continental"> <label for="">Continental</label>
+                <form >
+                    <label >Cusine type: </label>
+                    <input type="checkbox" id="indianVeg"> <label for="">Indian-Veg</label>
+                    <input type="checkbox" id="indianVegNonVeg"> <label for="">Indian-veg & Non-veg</label>
+                    <input type="checkbox" id="chinese"> <label for="">Chinese</label>
+                    <input type="checkbox" id="continental"> <label for="">Continental</label>
+                </form>
             </td>
         </tr>
 
         <tr>
             <td>
-                <form>
+                <form >
                     <label for="">Licence(Jpeg/PDF)*</label>
                     <input type="file" id="licence">
                 </form>
@@ -122,13 +126,13 @@
 
         <tr>
             <td>
-                <form>
+                <form >
                     <label for="">FSSAI(Jpeg/PDF)*</label>
                     <input type="file" id="fssai">
                 </form>
             </td>
             <td>
-                <form>
+                <form >
                     <label for="">Facade/Kitchen/Dining-Packaging/Locality(Jpeg)*</label>
                     <input type="file" id="others">
                 </form>
@@ -137,7 +141,9 @@
 
         <tr>
             <td>
-                <input type="checkbox" id="indianVeg"> <label for="">I agree to terms of services</label>
+                <form >
+                <input type="checkbox" id="terms"> <label for="">I agree to terms of services</label>
+                </form>
             </td>
         </tr>
 
